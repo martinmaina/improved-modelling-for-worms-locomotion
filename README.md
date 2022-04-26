@@ -59,8 +59,8 @@ apt-get install -y git
 
 Clone and build repository:
 ```
-git clone https://bitbucket.org/leedswormlab/curve-worm-royal-society-paper.git curve-worm
-cd curve-worm
+git clone https://github.com/martinmaina/improved-modelling-for-worms-locomotion
+cd improved-modelling-for-worms-locomotion
 mkdir build && cd build
 cmake -D CMAKE_BUILD_TYPE=Release ..
 make
