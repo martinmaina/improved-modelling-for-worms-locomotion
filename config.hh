@@ -1,0 +1,1 @@
+#cmakedefine OpenCV_FOUND

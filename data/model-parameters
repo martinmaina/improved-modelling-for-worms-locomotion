@@ -1,0 +1,54 @@
+time.start:0
+time.deltaT:1.0e-3
+time.end:50.0
+
+mesh.N:128
+mesh.a:0
+mesh.b:1
+
+io.prefix:.
+io.timestep:5.0e-3
+io.transient:30.0
+io.innerwrite:1
+
+model.constraint:measure
+model.problem:driven
+
+model.e:1
+model.mu:0
+model.K:39
+model.gamma:1
+model.I2.eps:1e-4
+
+# LAMBDA MODEL
+model.beta.beta0:10
+model.beta.beta1:6
+model.beta.lambda:0.65
+model.beta.omega:1.0
+
+# READ MODEL
+model.beta.freq:0.5
+model.beta.amp:1.0
+model.beta.wave:0.7
+model.torque.a:100.0
+model.torque.b:10.0
+
+model.read.propFrom:0.0
+model.read.propTo:0.5
+model.read.propStrength:1.0
+
+# OneThresholdModel
+model.threshold.thd_on:7
+model.threshold.thd_off:-7
+
+# ThresholdModel
+model.threshold.thd_0:-3.0
+model.threshold.thd_1:3.0
+model.threshold.thv_00:-0.75
+model.threshold.thv_11:-1.0
+model.threshold.thv_01:-3.0
+model.threshold.thv_10:3.0
+model.threshold.reset:1
+
+# YoungMod Model
+model.beta.M:48.0
