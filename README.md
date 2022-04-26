@@ -1,4 +1,4 @@
-# CURVE-WORM (0.01)
+# Locomotion in C.elegans 
 
 Code for running a simluation of a C. elegans integrated neuro-mechanical locomotion model written in `C++`.
 
